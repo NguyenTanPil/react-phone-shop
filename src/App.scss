@@ -1,0 +1,54 @@
+// variables
+$mainBlue: #2a2a72;
+$lightBlue: #009ffd;
+$mainWhite: #f3f3f3;
+$mainDark: #232528;
+$mainYellow: #ffa400;
+
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  background-color: $mainWhite !important;
+  color: $mainDark !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.text-title {
+  font-family: 'Permanent Marker', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: $mainBlue;
+}
+
+.text-bright {
+  color: $lightBlue;
+}
+
+.btn-black {
+  background-color: transparent;
+  border: 0.1rem solid $mainDark !important;
+  border-radius: 0 !important;
+  color: $mainDark;
+  font-size: 0.8rem !important;
+  transition: all 0.3s linear 0s;
+  text-transform: capitalize;
+  &:hover {
+    background-color: $mainDark;
+    color: $mainWhite !important;
+  }
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: $mainYellow;
+  font-size: 1.2rem;
+}
